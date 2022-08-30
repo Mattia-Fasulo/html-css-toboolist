@@ -1,3 +1,5 @@
+/* reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +7,16 @@
 }
 
 html {
-  background-color: rgb(211, 212, 212);
+  background-color: rgb(223, 225, 225);
+  font-family: "Roboto";
 }
+
+.container-main {
+  width: 80%;
+  margin: 7 0px auto;
+}
+
+/* header */
 
 #logo {
   width: 5%;
@@ -14,11 +24,37 @@ html {
   margin: 10px 10px;
 }
 
-.container {
+.container-logo {
   vertical-align: middle;
+  background-color: white;
 }
 
 header h1 {
   display: inline-block;
   vertical-align: middle;
+  font-size: 44px;
+}
+
+/* buttons */
+
+.container-buttons {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.container-buttons button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#button1 {
+  margin: 15px 5px 15px 80px;
+  background-color: rgb(71, 173, 241);
+  color: white;
+  padding: 9px 13px;
+}
+
+#button2 {
+  border: 3px solid rgb(180, 180, 180);
 }

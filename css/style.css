@@ -61,3 +61,90 @@ header h1 {
     border: 3px solid rgb(180, 180, 180);
 }
 
+/* list */
+
+.container-list{
+    margin-top: 10px;
+    background-color: white;
+}
+
+.list{
+    list-style: none;
+    padding: 40px 80px;
+}
+
+.sub-list{
+    list-style: none;
+}
+
+.check{
+    border: 3px solid green;
+    border-radius: 50%;
+    margin-left: 2px;
+    color: green;
+    padding: 3px;
+}
+
+.cross{
+    border: 3px solid red;
+    border-radius: 50%;
+    margin-left: 2px;
+    color: red;
+    padding: 3px;
+}
+
+.primary-li{
+    margin-bottom: 40px;
+}
+
+li{
+    margin-top: 25px;
+}
+
+.btn-blu{
+    background-color: rgb(69, 171, 234);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.btn-violet{
+    background-color: rgb(156, 114, 228);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.btn-green{
+    background-color: rgb(101, 192, 170);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.btn-orange{
+    background-color: rgb(242, 158, 51);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.btn-pink{
+    background-color: rgb(216, 99, 161);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.btn-pea{
+    background-color: rgb(176, 201, 38);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
